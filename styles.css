@@ -48,8 +48,6 @@ body {
     align-items: center;
 
     padding: 2rem 0;
-
-    overflow: scroll;
 }
 
 body>* {
@@ -244,6 +242,10 @@ p {
     border: hsl(0, 0%, 20%) 1px solid;
 
     background: linear-gradient(to bottom, hsl(0, 0%, 10%) 10%, hsl(0, 0%, 5%) 100%);
+}
+
+.logo>img {
+    width: 4rem;
 }
 
 @media screen and (max-width: 470px) {
