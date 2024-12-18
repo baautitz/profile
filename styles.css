@@ -52,10 +52,6 @@ body {
     padding: 2rem 0;
 }
 
-body>* {
-    animation: loaded 0.8s ease-out;
-}
-
 .wrapper {
     display: grid;
 
@@ -293,13 +289,6 @@ p {
 
     .wrapper {
         width: 90dvw;
-    }
-}
-
-@keyframes loaded {
-    0% {
-        opacity: 0.3;
-        transform: translate(0, 30%);
     }
 }
 
