@@ -190,7 +190,7 @@ p {
     grid-template-columns: 7.5rem auto max-content;
 
     min-height: fit-content;
-    height: 4.5rem;
+    
     padding: 1rem;
 
     align-items: center;
