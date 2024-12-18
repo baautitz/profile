@@ -239,7 +239,7 @@ p {
     height: 5rem;
     width: 5rem;
 
-    border-radius: 16px;
+    border-radius: 12px;
     border: hsl(0, 0%, 20%) 1px solid;
 
     background: linear-gradient(to bottom, hsl(0, 0%, 10%) 10%, hsl(0, 0%, 5%) 100%);
