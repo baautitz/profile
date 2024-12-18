@@ -81,9 +81,6 @@ h2 {
     font-size: 1.7rem;
     font-weight: normal;
     text-align: start;
-
-    transform: translateY(-0.5rem);
-
 }
 
 p {
@@ -250,10 +247,6 @@ p {
 @media screen and (max-width: 470px) {
     :root {
         font-size: 8px;
-    }
-    
-    body {
-        justify-content: start;
     }
     
     h1 {
