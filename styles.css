@@ -188,7 +188,7 @@ p {
 .link {
     display: grid;
 
-    grid-template-columns: 7.5rem auto max-content;
+    grid-template-columns: 6rem auto max-content;
 
     min-height: fit-content;
     
@@ -236,8 +236,8 @@ p {
     align-items: center;
     justify-content: center;
 
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
 
     border-radius: 16px;
     border: hsl(0, 0%, 20%) 1px solid;
@@ -246,7 +246,7 @@ p {
 }
 
 .logo>img {
-    width: 4rem;
+    width: 3.5rem;
 }
 
 @media screen and (max-width: 470px) {
