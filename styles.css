@@ -69,6 +69,7 @@ h1 {
     background-size: 200% 200%, 1px 1px;
 
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
 
     font-size: 3rem;
