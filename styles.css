@@ -19,6 +19,7 @@
     --gradient: linear-gradient(var(--angle), #0894FF, #C959DD 34%, #FF2E54 68%, #FF9004);
     animation: angle-animation 180s infinite;
     font-size: 9px;
+    color-scheme: only dark;
 }
 
 html {
