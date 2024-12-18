@@ -40,7 +40,10 @@ body {
     height: 100%;
     width: 100%;
 
-    background-color: black;
+    background: var(--gradient);
+    background-size: 200% 200%, 1px 1px;
+
+    animation: angle-animation 30s ease-in alternate-reverse infinite;
 
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,6 +52,17 @@ body {
     align-items: center;
 
     padding: 2rem 0;
+}
+
+body::after {
+    content: "";
+
+    height: 500%;
+    width: 500%;
+
+    position: fixed;
+
+    background: linear-gradient(to bottom, hsla(0, 0%, 7%, 0.9) 0%, hsla(0, 0%, 0%, 1) 80%);;
 }
 
 .wrapper {
@@ -193,6 +207,11 @@ p {
     background-color: hsla(0, 0%, 15%, 0.4);
 
     border-radius: 20px;
+}
+
+.link:hover {
+    background-color: hsla(0, 0%, 15%, 0.8);
+    transition: background-color 0.2s ease-out;
 }
 
 .link-title {
