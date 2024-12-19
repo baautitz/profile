@@ -84,7 +84,7 @@ h1 {
     -webkit-background-clip: text;
     color: transparent;
 
-    font-size: 7rem;
+    font-size: 10rem;
     text-align: center;
 
     animation: angle-animation 30s ease-in alternate-reverse infinite;
@@ -269,7 +269,7 @@ p {
     }
     
     h1 {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     h2 {
